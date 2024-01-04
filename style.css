@@ -1,0 +1,131 @@
+
+div{
+    width:100px;
+    height:100px;    background-color:blue;
+    position:relative;
+    animation-name: example;
+    animation-duration:10s;
+}
+@keyframes example{
+    0%{background-color:red; left:0px; top:0px;}
+    10%{background-color:green; left:200px; top:0px;}
+    30%{background-color:blue; left:200px; top:200px;}
+    50%{background-image:white; left:0px; top:100px;}
+    70%{background-color:black; left:0px; top:200px;}
+    100%{background-color:cyan; left:0px; top:0px;}
+        }
+
+@keyframes dinesh{
+20%{ background:red}
+40%{background: blue}
+60%{background: green}
+100%{background: black}
+
+}
+<br>
+.img {
+    width:30px;
+    height:30px;
+}
+.img1 {
+    border-radius:50px;
+}
+.img2 {
+    border-radius: 10px 90px;
+}
+.img3 {
+    border-radius:60px;
+}
+.img4 {
+    border-radius: 80px 30px/40px 60px;
+}
+.img5 {
+    border-radius: 20px 10px;
+}
+.img6 {
+    border-radius: 90px 80px/40px 60px;
+}
+.img1:hover{
+    width:100px;
+    height:100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius:15px;
+    box-shadow: 40px 40px 40px red;
+}
+.img2:hover{
+    width:100px;
+    height:100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius:15px;
+    box-shadow: 40px 40px 40px blue;
+}
+.img3:hover{
+    width:100px;
+    height:100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius:15px;
+    box-shadow:40px 40px 40px blue;
+}
+.img4:hover{
+    width:100px;
+    height:100px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius:15px;
+    box-shadow: 40px 40px 40px orange;
+}
+.img5:hover{
+    width:100px;
+    height:100px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-radius:50px;
+    box-shadow: 40px 40px 40px black;
+}
+.img6:hover{
+    width:100px;
+    height:100px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-radius:50px;
+    box-shadow: 40px 40px 40px green;
+
+}
+<br>
+
+ body{
+    background: linear-gradient(#ebe834 20%,#43eb34 100%);
+}
+
+.holder1{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 10px;
+}
+.image1{
+    width:80%
+    border: solid 3px blue;
+    margin:10px;
+    border-radius: 10px;
+    
+
+}
+h1{
+    color:white;
+    font-size: 20px;
+    font-style:normal;
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
